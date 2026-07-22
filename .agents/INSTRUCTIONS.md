@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 - `src/index.ts` defines the worker and capabilities.
-- `.examples/` has focused samples (sync, tool, automation, OAuth).
+- `.examples/` has focused samples (sync, tool, automation, OAuth, webhook).
 - Shared agent skills live in `.agents/skills/`. `.claude/skills` is kept as a compatibility symlink for Claude-specific discovery.
 - Generated: `dist/` build output, `workers.json` CLI config.
 
